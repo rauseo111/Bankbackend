@@ -4,8 +4,9 @@
   "description": "desafio banco estado",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon/index.js",
-    "dev": "node ./node_modules/mocha/bin/mocha",
+    "start": "node index.js",
+    "cert": "node ./node_modules/mocha/bin/mocha",
+    "dev": "nodemon/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "leonardo espinosa",
