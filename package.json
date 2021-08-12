@@ -1,0 +1,24 @@
+{
+  "name": "desafio",
+  "version": "1.0.0",
+  "description": "desafio banco estado",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon/index.js",
+    "dev": "node ./node_modules/mocha/bin/mocha",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "leonardo espinosa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "mocha": "^9.0.3",
+    "nodemon": "^2.0.12",
+    "typescript": "^4.3.5"
+  }
+}
